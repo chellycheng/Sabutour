@@ -14,7 +14,7 @@ import java.lang.Exception;
 public class Client implements Runnable {
     protected static final String DEFAULT_SERVER = "localhost";
     protected static final int DEFAULT_PORT = Server.DEFAULT_PORT;
-    protected static final String DEFAULT_PLAYER = "Saboteur.RandomSaboteurPlayer";
+    protected static final String DEFAULT_PLAYER = "student_player.DummyPlayer";
     protected static final boolean DBGNET = true;
 
     private Socket socket;
